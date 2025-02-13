@@ -78,6 +78,7 @@ ul.links li:not(:last-child) {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 81, 81);
+    gap: 1rem;
     padding: 1rem;
     border-radius: 20px;
     box-shadow: 8px 10px 0 rgb(0, 25, 25);
@@ -95,6 +96,11 @@ ul.links li:not(:last-child) {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.links .link-text {
+    text-align: center;
+
 }
 
 .links .link-icon i {
